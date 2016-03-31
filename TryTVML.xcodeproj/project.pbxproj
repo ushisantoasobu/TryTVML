@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CD82CDA21CAD7E4E006078DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDA11CAD7E4E006078DB /* AppDelegate.swift */; };
-		CD82CDA41CAD7E4E006078DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDA31CAD7E4E006078DB /* ViewController.swift */; };
-		CD82CDA71CAD7E4E006078DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD82CDA51CAD7E4E006078DB /* Main.storyboard */; };
 		CD82CDA91CAD7E4F006078DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD82CDA81CAD7E4F006078DB /* Assets.xcassets */; };
 		CD82CDB41CAD7E4F006078DB /* TryTVMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDB31CAD7E4F006078DB /* TryTVMLTests.swift */; };
 		CD82CDBF1CAD7E4F006078DB /* TryTVMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDBE1CAD7E4F006078DB /* TryTVMLUITests.swift */; };
@@ -35,8 +33,6 @@
 /* Begin PBXFileReference section */
 		CD82CD9E1CAD7E4E006078DB /* TryTVML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryTVML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD82CDA11CAD7E4E006078DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD82CDA31CAD7E4E006078DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CD82CDA61CAD7E4E006078DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD82CDA81CAD7E4F006078DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD82CDAA1CAD7E4F006078DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD82CDAF1CAD7E4F006078DB /* TryTVMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTVMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				CD82CDA11CAD7E4E006078DB /* AppDelegate.swift */,
-				CD82CDA31CAD7E4E006078DB /* ViewController.swift */,
-				CD82CDA51CAD7E4E006078DB /* Main.storyboard */,
 				CD82CDA81CAD7E4F006078DB /* Assets.xcassets */,
 				CD82CDAA1CAD7E4F006078DB /* Info.plist */,
 			);
@@ -227,7 +221,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD82CDA91CAD7E4F006078DB /* Assets.xcassets in Resources */,
-				CD82CDA71CAD7E4E006078DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD82CDA41CAD7E4E006078DB /* ViewController.swift in Sources */,
 				CD82CDA21CAD7E4E006078DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,17 +279,6 @@
 			targetProxy = CD82CDBB1CAD7E4F006078DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CD82CDA51CAD7E4E006078DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD82CDA61CAD7E4E006078DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CD82CDC11CAD7E4F006078DB /* Debug */ = {
@@ -472,6 +453,7 @@
 				CD82CDC51CAD7E4F006078DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD82CDC61CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVMLTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +462,7 @@
 				CD82CDC81CAD7E4F006078DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD82CDC91CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVMLUITests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +471,7 @@
 				CD82CDCB1CAD7E4F006078DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
