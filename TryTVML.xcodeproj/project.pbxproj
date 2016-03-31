@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD82CDA21CAD7E4E006078DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDA11CAD7E4E006078DB /* AppDelegate.swift */; };
+		CD82CDA41CAD7E4E006078DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDA31CAD7E4E006078DB /* ViewController.swift */; };
+		CD82CDA71CAD7E4E006078DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD82CDA51CAD7E4E006078DB /* Main.storyboard */; };
+		CD82CDA91CAD7E4F006078DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD82CDA81CAD7E4F006078DB /* Assets.xcassets */; };
+		CD82CDB41CAD7E4F006078DB /* TryTVMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDB31CAD7E4F006078DB /* TryTVMLTests.swift */; };
+		CD82CDBF1CAD7E4F006078DB /* TryTVMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD82CDBE1CAD7E4F006078DB /* TryTVMLUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD82CDB01CAD7E4F006078DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD82CD961CAD7E4E006078DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD82CD9D1CAD7E4E006078DB;
+			remoteInfo = TryTVML;
+		};
+		CD82CDBB1CAD7E4F006078DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD82CD961CAD7E4E006078DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD82CD9D1CAD7E4E006078DB;
+			remoteInfo = TryTVML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD82CD9E1CAD7E4E006078DB /* TryTVML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryTVML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD82CDA11CAD7E4E006078DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD82CDA31CAD7E4E006078DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD82CDA61CAD7E4E006078DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD82CDA81CAD7E4F006078DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD82CDAA1CAD7E4F006078DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD82CDAF1CAD7E4F006078DB /* TryTVMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTVMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD82CDB31CAD7E4F006078DB /* TryTVMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryTVMLTests.swift; sourceTree = "<group>"; };
+		CD82CDB51CAD7E4F006078DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD82CDBA1CAD7E4F006078DB /* TryTVMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryTVMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD82CDBE1CAD7E4F006078DB /* TryTVMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryTVMLUITests.swift; sourceTree = "<group>"; };
+		CD82CDC01CAD7E4F006078DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD82CD9B1CAD7E4E006078DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD82CDAC1CAD7E4F006078DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD82CDB71CAD7E4F006078DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD82CD951CAD7E4E006078DB = {
+			isa = PBXGroup;
+			children = (
+				CD82CDA01CAD7E4E006078DB /* TryTVML */,
+				CD82CDB21CAD7E4F006078DB /* TryTVMLTests */,
+				CD82CDBD1CAD7E4F006078DB /* TryTVMLUITests */,
+				CD82CD9F1CAD7E4E006078DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD82CD9F1CAD7E4E006078DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD82CD9E1CAD7E4E006078DB /* TryTVML.app */,
+				CD82CDAF1CAD7E4F006078DB /* TryTVMLTests.xctest */,
+				CD82CDBA1CAD7E4F006078DB /* TryTVMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD82CDA01CAD7E4E006078DB /* TryTVML */ = {
+			isa = PBXGroup;
+			children = (
+				CD82CDA11CAD7E4E006078DB /* AppDelegate.swift */,
+				CD82CDA31CAD7E4E006078DB /* ViewController.swift */,
+				CD82CDA51CAD7E4E006078DB /* Main.storyboard */,
+				CD82CDA81CAD7E4F006078DB /* Assets.xcassets */,
+				CD82CDAA1CAD7E4F006078DB /* Info.plist */,
+			);
+			path = TryTVML;
+			sourceTree = "<group>";
+		};
+		CD82CDB21CAD7E4F006078DB /* TryTVMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD82CDB31CAD7E4F006078DB /* TryTVMLTests.swift */,
+				CD82CDB51CAD7E4F006078DB /* Info.plist */,
+			);
+			path = TryTVMLTests;
+			sourceTree = "<group>";
+		};
+		CD82CDBD1CAD7E4F006078DB /* TryTVMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD82CDBE1CAD7E4F006078DB /* TryTVMLUITests.swift */,
+				CD82CDC01CAD7E4F006078DB /* Info.plist */,
+			);
+			path = TryTVMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD82CD9D1CAD7E4E006078DB /* TryTVML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD82CDC31CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVML" */;
+			buildPhases = (
+				CD82CD9A1CAD7E4E006078DB /* Sources */,
+				CD82CD9B1CAD7E4E006078DB /* Frameworks */,
+				CD82CD9C1CAD7E4E006078DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryTVML;
+			productName = TryTVML;
+			productReference = CD82CD9E1CAD7E4E006078DB /* TryTVML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD82CDAE1CAD7E4F006078DB /* TryTVMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD82CDC61CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVMLTests" */;
+			buildPhases = (
+				CD82CDAB1CAD7E4F006078DB /* Sources */,
+				CD82CDAC1CAD7E4F006078DB /* Frameworks */,
+				CD82CDAD1CAD7E4F006078DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD82CDB11CAD7E4F006078DB /* PBXTargetDependency */,
+			);
+			name = TryTVMLTests;
+			productName = TryTVMLTests;
+			productReference = CD82CDAF1CAD7E4F006078DB /* TryTVMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD82CDB91CAD7E4F006078DB /* TryTVMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD82CDC91CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVMLUITests" */;
+			buildPhases = (
+				CD82CDB61CAD7E4F006078DB /* Sources */,
+				CD82CDB71CAD7E4F006078DB /* Frameworks */,
+				CD82CDB81CAD7E4F006078DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD82CDBC1CAD7E4F006078DB /* PBXTargetDependency */,
+			);
+			name = TryTVMLUITests;
+			productName = TryTVMLUITests;
+			productReference = CD82CDBA1CAD7E4F006078DB /* TryTVMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD82CD961CAD7E4E006078DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = moguraproject;
+				TargetAttributes = {
+					CD82CD9D1CAD7E4E006078DB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD82CDAE1CAD7E4F006078DB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD82CD9D1CAD7E4E006078DB;
+					};
+					CD82CDB91CAD7E4F006078DB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD82CD9D1CAD7E4E006078DB;
+					};
+				};
+			};
+			buildConfigurationList = CD82CD991CAD7E4E006078DB /* Build configuration list for PBXProject "TryTVML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD82CD951CAD7E4E006078DB;
+			productRefGroup = CD82CD9F1CAD7E4E006078DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD82CD9D1CAD7E4E006078DB /* TryTVML */,
+				CD82CDAE1CAD7E4F006078DB /* TryTVMLTests */,
+				CD82CDB91CAD7E4F006078DB /* TryTVMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD82CD9C1CAD7E4E006078DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD82CDA91CAD7E4F006078DB /* Assets.xcassets in Resources */,
+				CD82CDA71CAD7E4E006078DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD82CDAD1CAD7E4F006078DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD82CDB81CAD7E4F006078DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD82CD9A1CAD7E4E006078DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD82CDA41CAD7E4E006078DB /* ViewController.swift in Sources */,
+				CD82CDA21CAD7E4E006078DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD82CDAB1CAD7E4F006078DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD82CDB41CAD7E4F006078DB /* TryTVMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD82CDB61CAD7E4F006078DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD82CDBF1CAD7E4F006078DB /* TryTVMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD82CDB11CAD7E4F006078DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD82CD9D1CAD7E4E006078DB /* TryTVML */;
+			targetProxy = CD82CDB01CAD7E4F006078DB /* PBXContainerItemProxy */;
+		};
+		CD82CDBC1CAD7E4F006078DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD82CD9D1CAD7E4E006078DB /* TryTVML */;
+			targetProxy = CD82CDBB1CAD7E4F006078DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD82CDA51CAD7E4E006078DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD82CDA61CAD7E4E006078DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD82CDC11CAD7E4F006078DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		CD82CDC21CAD7E4F006078DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD82CDC41CAD7E4F006078DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TryTVML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moguraproject.TryTVML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD82CDC51CAD7E4F006078DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TryTVML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moguraproject.TryTVML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD82CDC71CAD7E4F006078DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryTVMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moguraproject.TryTVMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryTVML.app/TryTVML";
+			};
+			name = Debug;
+		};
+		CD82CDC81CAD7E4F006078DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryTVMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moguraproject.TryTVMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryTVML.app/TryTVML";
+			};
+			name = Release;
+		};
+		CD82CDCA1CAD7E4F006078DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryTVMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moguraproject.TryTVMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryTVML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD82CDCB1CAD7E4F006078DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryTVMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moguraproject.TryTVMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryTVML;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD82CD991CAD7E4E006078DB /* Build configuration list for PBXProject "TryTVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD82CDC11CAD7E4F006078DB /* Debug */,
+				CD82CDC21CAD7E4F006078DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD82CDC31CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD82CDC41CAD7E4F006078DB /* Debug */,
+				CD82CDC51CAD7E4F006078DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD82CDC61CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD82CDC71CAD7E4F006078DB /* Debug */,
+				CD82CDC81CAD7E4F006078DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD82CDC91CAD7E4F006078DB /* Build configuration list for PBXNativeTarget "TryTVMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD82CDCA1CAD7E4F006078DB /* Debug */,
+				CD82CDCB1CAD7E4F006078DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD82CD961CAD7E4E006078DB /* Project object */;
+}
