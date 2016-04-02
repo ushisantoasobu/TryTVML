@@ -1,10 +1,18 @@
 App.onLaunch = function(options) {
-  // 1
-  var alert = createAlert("Hello World", ""); //leaving 2nd parameter with an empty string
-  navigationDocument.presentModal(alert);
+
+  var javascriptFiles = [
+     `${options.BASEURL}js/Presenter.js`
+  ];
+  evaluateScripts(javascriptFiles, function(success) {
+    if(success) {
+      var alert = createAlert("Hello World!", "");
+      Presenter.modalDialogPresenter(alert);
+    } else {
+      // Handle the error CHALLENGE!//inside else statement of evaluateScripts.
+    }
+  });
 }
 
-// 2
 var createAlert = function(title, description) {
   var alertString = `<?xml version="1.0" encoding="UTF-8" ?>
     <document>
