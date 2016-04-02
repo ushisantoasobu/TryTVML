@@ -2,13 +2,15 @@ App.onLaunch = function(options) {
 
   var javascriptFiles = [
      `${options.BASEURL}js/Presenter.js`
+    //  `${options.BASEURL}js/Presentereeeeeee.js`
   ];
   evaluateScripts(javascriptFiles, function(success) {
     if(success) {
       var alert = createAlert("Hello World!", "");
       Presenter.modalDialogPresenter(alert);
     } else {
-      // Handle the error CHALLENGE!//inside else statement of evaluateScripts.
+      var alert = createAlert("エラーが発生しました", "存在しないJavascriptのファイルが存在します");
+      navigationDocument.presentModal(alert);
     }
   });
 }
