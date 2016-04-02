@@ -21,17 +21,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
 
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
-        // 1
         let appControllerContext = TVApplicationControllerContext()
 
-        // 2
         guard let javaScriptURL = NSURL(string: AppDelegate.TVBootURL) else {
             fatalError("unable to create NSURL")
         }
         appControllerContext.javaScriptApplicationURL = javaScriptURL
         appControllerContext.launchOptions["BASEURL"] = AppDelegate.TVBaseURL
 
-        // 3
         appController = TVApplicationController(context: appControllerContext, window: window, delegate: self)
 
         return true
