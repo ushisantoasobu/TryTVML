@@ -1,15 +1,23 @@
+var resourceLoader;
+
 App.onLaunch = function(options) {
 
   var javascriptFiles = [
+     `${options.BASEURL}templates/RWDevConTemplate.xml.js`,
+     `${options.BASEURL}js/ResourceLoader.js`,
      `${options.BASEURL}js/Presenter.js`
     //  `${options.BASEURL}js/Presentereeeeeee.js`
   ];
   evaluateScripts(javascriptFiles, function(success) {
     if(success) {
-      var alert = createAlert("Hello World!", "");
-      Presenter.modalDialogPresenter(alert);
+      resourceLoader = new ResourceLoader(options.BASEURL);
+      resourceLoader.loadResource(`${options.BASEURL}templates/RWDevConTemplate.xml.js`,
+        function(resource) {
+        var doc = Presenter.makeDocument(resource);
+        Presenter.pushDocument(doc);
+      });
     } else {
-      var alert = createAlert("エラーが発生しました", "存在しないJavascriptのファイルが存在します");
+      var alert = createAlert("エラーが発生しました", "");
       navigationDocument.presentModal(alert);
     }
   });
